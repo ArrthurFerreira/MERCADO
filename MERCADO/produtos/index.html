@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Cadastro Produto</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+
+<body>
+    <a href="index.html"> Cadastro </a> - <a href="listar.php"> Listar </a> - <a href="alterar.php">Alterar </a> - <a
+        href="excluir.php"> Excluir </a> <br>
+    <hr>
+    <form action="bd_acoes.php" method="POST">
+      codigo_barra:<br />
+      <input type="text" name="codigo_barra"><br /><br />
+  
+      cod_categoria:<br />
+      <input type="text" name="cod_categoria"><br /><br />
+  
+      marca:<br />
+      <input type="text" name="marca"><br /><br />
+  
+      descricao:<br />
+      <input type="text" name="descricao"><br /><br />
+  
+      peso:<br />
+      <input type="text" name="peso"><br /><br />
+  
+      data_validade:<br />
+      <input type="text" name="data_validade"><br /><br />
+  
+      data_fabricacao:<br />
+      <input type="text" name="data_fabricacao"><br /><br />
+
+        <br /><br />
+        <button type="submit" name="inserir_registro">Cadastrar</button>
+    </form>
+</body>
+
+</html>

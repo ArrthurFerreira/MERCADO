@@ -1,0 +1,11 @@
+body{
+
+  background-image:  url(interno.png);
+  background-size: 1500px;
+  text-align: center;
+  color: aquamarine;
+}
+
+input {
+  margin-left: 50px;
+}
